@@ -1,0 +1,12 @@
+diff --git a/fetch_configs/chromium.py b/fetch_configs/chromium.py
+index e434198..66d2952 100644
+--- a/fetch_configs/chromium.py
++++ b/fetch_configs/chromium.py
+@@ -6,6 +6,7 @@ import sys
+ 
+ import config_util  # pylint: disable=import-error
+ 
++# This uncommitted change stops depot_tools automatic update
+ 
+ # This class doesn't need an __init__ method, so we disable the warning
+ # pylint: disable=no-init

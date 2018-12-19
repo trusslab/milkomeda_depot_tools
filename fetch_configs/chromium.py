@@ -14,7 +14,8 @@ class Chromium(config_util.Config):
 
   @staticmethod
   def fetch_spec(props):
-    url = 'https://chromium.googlesource.com/chromium/src.git'
+    #url = 'https://chromium.googlesource.com/chromium/src.git'
+    url = 'https://github.com/trusslab/milkomeda_chromium.git'
     solution = { 'name'   :'src',
                  'url'    : url,
                  'deps_file': '.DEPS.git',
